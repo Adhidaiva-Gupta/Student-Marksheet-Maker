@@ -1,0 +1,79 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.container{
+    text-align: center;
+    background-color: cyan;
+    width: 600px;
+    box-shadow: 5px 10px 20px grey;
+    margin: 100px auto 0;
+}
+
+h2{
+    font-weight: bold;
+    color: crimson;
+}
+
+.show input{
+height: 35px;
+width: 300px;
+border: 0;
+outline: none;
+margin: 0 50px;
+padding-left: 10px;
+font-size: 18px;
+font-weight: bold;
+box-sizing: border-box;
+margin-top: 20px;
+text-transform: capitalize;
+}
+
+.show input:focus{
+   border-bottom: 2px solid white;
+}
+
+.add input{
+  margin: 10px;
+  padding: 5px;
+  font-size: 18px;
+  text-transform:  capitalize;
+  box-sizing: border-box;
+}
+
+::placeholder{
+    color: black;
+}
+
+p{
+    margin-top: 20px;
+}
+
+#info{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+#result{
+    padding-bottom: 20px;
+}
+
+button{
+    padding: 10px 30px;
+    margin: 20px 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 2px solid pink;
+    color: green;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+button:hover{
+    background-color: grey;
+    color: pink;
+}
+
